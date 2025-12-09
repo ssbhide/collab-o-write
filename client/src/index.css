@@ -1,0 +1,22 @@
+/* Basic reset */
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+}
+
+/* Make the editor look like a page */
+.container .ql-editor {
+  width: 8.5in;
+  min-height: 11in;
+  padding: 1in;
+  margin: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+/* Center the toolbar and editor */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
